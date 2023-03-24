@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-myPTest2" version="0.0.1">
+    <name>myPTest2</name>
+    <description>An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.</description>
+    <license>MIT</license>
+    <keywords>cordova,android,toast,message,alert</keywords>
+    <repo>https://github.com/brianteobt/myPTest2/myPTest2.git</repo>
+    <issue>https://github.com/brianteobt/myPTest2/issues</issue>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <js-module src="www/myPTest2.js" name="myPTest2">
+        <clobbers target="window.plugins.myPTest2" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="myPTest2">
+                <param name="android-package" value="com.brianteobt.cordova.plugin.myPTest2"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/myPTest2.java" target-dir="src/com/brianteobt/cordova/plugin" />
+    </platform>
+</plugin>

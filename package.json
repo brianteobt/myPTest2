@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-myPTest2",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "cordova": {
+    "id": "cordova-plugin-myPTest2",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianteobt/myPTest2.git"
+  },
+  "keywords": [
+    "Toast",
+    "Notification",
+    "Message",
+    "Alert",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Brian <email>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianteobt/myPTest2/issues"
+  },
+  "homepage": "https://github.com/brianteobt/myPTest2/"
+}
